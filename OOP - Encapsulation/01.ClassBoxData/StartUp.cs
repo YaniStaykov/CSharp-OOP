@@ -16,7 +16,6 @@ namespace _01.ClassBoxData
             }
             catch (ArgumentException ae)
             {
-
                 Console.WriteLine(ae.Message);
             }
         }
