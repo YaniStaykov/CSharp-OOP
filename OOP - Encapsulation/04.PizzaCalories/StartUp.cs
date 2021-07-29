@@ -30,7 +30,6 @@
                 dough = new Dough(flour.ToLower(), bakingTech.ToLower(), weight);
 
                 pizza.PizzaDough = dough;
-
             }
             catch (Exception e)
             {
