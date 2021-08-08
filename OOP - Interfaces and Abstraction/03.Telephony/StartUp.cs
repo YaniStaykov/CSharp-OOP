@@ -26,7 +26,6 @@
                     {
                         Console.WriteLine(stationaryPhone.Call(phoneNumbers[i]));
                     }
-
                 }
                 else if (phoneNumbers[i].Length == 10)
                 {
