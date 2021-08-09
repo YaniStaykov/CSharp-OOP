@@ -32,9 +32,9 @@
             string lastDigits = Console.ReadLine();
 
             allId.Where(c => c.Id.EndsWith(lastDigits))
-            .Select(c => c.Id)
-            .ToList()
-            .ForEach(Console.WriteLine);
+                .Select(c => c.Id)
+                .ToList()
+                .ForEach(Console.WriteLine);
         }
     }
 }
