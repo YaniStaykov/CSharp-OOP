@@ -1,10 +1,8 @@
-﻿using _07.MilitaryElite.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _07.MilitaryElite.Models
+﻿namespace _07.MilitaryElite.Models
 {
+    using _07.MilitaryElite.Interfaces;
+    using System.Text;
+
     public class Spy : ISoldier, ISpy
     {
         public Spy(int id, string firstName, string lastName, int codeNumber)

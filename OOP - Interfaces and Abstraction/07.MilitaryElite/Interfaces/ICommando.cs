@@ -1,10 +1,8 @@
-﻿using _07.MilitaryElite.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _07.MilitaryElite.Interfaces
+﻿namespace _07.MilitaryElite.Interfaces
 {
+    using _07.MilitaryElite.Models;
+    using System.Collections.Generic;
+
     public interface ICommando
     {
         ICollection<Mission> Missions { get; }

@@ -1,10 +1,9 @@
-﻿using _07.MilitaryElite.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _07.MilitaryElite.Models
+﻿namespace _07.MilitaryElite.Models
 {
+    using _07.MilitaryElite.Interfaces;
+    using System.Collections.Generic;
+    using System.Text;
+
     public class LeutenantGeneral : ISoldier, IPrivate, ILeutenantGeneral
     {
         public LeutenantGeneral(int id, string firstName, string lastName, double salary)

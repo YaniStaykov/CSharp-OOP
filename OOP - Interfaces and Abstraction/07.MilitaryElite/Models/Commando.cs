@@ -1,11 +1,10 @@
-﻿using _07.MilitaryElite.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using static _07.MilitaryElite.Interfaces.ISpecialisedSoldier;
-
-namespace _07.MilitaryElite.Models
+﻿namespace _07.MilitaryElite.Models
 {
+    using _07.MilitaryElite.Interfaces;
+    using System.Collections.Generic;
+    using System.Text;
+    using static _07.MilitaryElite.Interfaces.ISpecialisedSoldier;
+
     public class Commando : ISoldier, IPrivate, Interfaces.ISpecialisedSoldier, ICommando
     {
         public Commando(int id, string firstName, string lastName, double salary, Corps corps)

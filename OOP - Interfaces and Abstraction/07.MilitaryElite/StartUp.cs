@@ -1,10 +1,10 @@
-﻿using _07.MilitaryElite.Models;
-using System;
-using System.Collections.Generic;
-using static _07.MilitaryElite.Interfaces.ISpecialisedSoldier;
-
-namespace _07.MilitaryElite
+﻿namespace _07.MilitaryElite
 {
+    using _07.MilitaryElite.Models;
+    using System;
+    using System.Collections.Generic;
+    using static _07.MilitaryElite.Interfaces.ISpecialisedSoldier;
+
     public class StartUp
     {
         public static void Main()
