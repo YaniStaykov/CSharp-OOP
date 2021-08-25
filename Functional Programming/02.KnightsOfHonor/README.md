@@ -4,6 +4,9 @@
 
 ## Example 
 
-* Input:
+* Input:Eathan Lucas Noah StanleyRoyce
 
-* Output:
+* Output:Sir Eathan
+ Sir Lucas
+ Sir Noah
+ Sir StanleyRoyce
