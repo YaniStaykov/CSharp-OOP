@@ -7,6 +7,7 @@
 * Input: 4
  Karl Qvor George Muk Ivan
 
-* Output:George
+* Output: Karl
+ Qvor
  Muk
  Ivan
