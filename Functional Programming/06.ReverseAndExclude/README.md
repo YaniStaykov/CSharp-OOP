@@ -1,0 +1,10 @@
+﻿# ReversAndExclude
+
+* This is a console application that reverses a collection and removes elements that are divisible by a given integer n.
+
+## Example 
+
+* Input: 1 2 3 4 5 6
+ 2
+
+* Output: 5 3 1
